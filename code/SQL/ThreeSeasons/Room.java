@@ -39,6 +39,110 @@ public class Room
 	private boolean bFamily ;
 	private int iNumBeds ;
 
+	public int getiRoomId() {
+		return iRoomId;
+	}
+
+	public void setiRoomId(int iRoomId) {
+		this.iRoomId = iRoomId;
+	}
+
+	public int getiRoomNumber() {
+		return iRoomNumber;
+	}
+
+	public void setiRoomNumber(int iRoomNumber) {
+		this.iRoomNumber = iRoomNumber;
+	}
+
+	public short getiFloor() {
+		return iFloor;
+	}
+
+	public void setiFloor(short iFloor) {
+		this.iFloor = iFloor;
+	}
+
+	public int getiCost() {
+		return iCost;
+	}
+
+	public void setiCost(int iCost) {
+		this.iCost = iCost;
+	}
+
+	public char getcOccupancy() {
+		return cOccupancy;
+	}
+
+	public void setcOccupancy(char cOccupancy) {
+		this.cOccupancy = cOccupancy;
+	}
+
+	public boolean isbEnsuite() {
+		return bEnsuite;
+	}
+
+	public void setbEnsuite(boolean bEnsuite) {
+		this.bEnsuite = bEnsuite;
+	}
+
+	public boolean isbMinibar() {
+		return bMinibar;
+	}
+
+	public void setbMinibar(boolean bMinibar) {
+		this.bMinibar = bMinibar;
+	}
+
+	public boolean isbJacuzzi() {
+		return bJacuzzi;
+	}
+
+	public void setbJacuzzi(boolean bJacuzzi) {
+		this.bJacuzzi = bJacuzzi;
+	}
+
+	public boolean isbSeaview() {
+		return bSeaview;
+	}
+
+	public void setbSeaview(boolean bSeaview) {
+		this.bSeaview = bSeaview;
+	}
+
+	public boolean isbHoneymoon() {
+		return bHoneymoon;
+	}
+
+	public void setbHoneymoon(boolean bHoneymoon) {
+		this.bHoneymoon = bHoneymoon;
+	}
+
+	public boolean isbFamily() {
+		return bFamily;
+	}
+
+	public void setbFamily(boolean bFamily) {
+		this.bFamily = bFamily;
+	}
+
+	public int getiNumBeds() {
+		return iNumBeds;
+	}
+
+	public void setiNumBeds(int iNumBeds) {
+		this.iNumBeds = iNumBeds;
+	}
+
+	public int getiNumRows() {
+		return iNumRows;
+	}
+
+	public void setiNumRows(int iNumRows) {
+		this.iNumRows = iNumRows;
+	}
+
 	private int iNumRows ;
 
 	// DB materials.
